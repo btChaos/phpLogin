@@ -1,7 +1,7 @@
 <?php
   include('conexao.php');
   if (!empty($_POST) AND (empty($_POST['usuario']) OR empty($_POST['senha']))) {
-      header("Location: Ultimato.php"); 
+      header("Location: login.php"); 
       exit;
   }
   
